@@ -9,8 +9,7 @@ public:
         while(s<=e){
              mid=(s+e)/2;
             if(arr[mid]==target){
-               found=true; 
-               break;
+              return mid;
             }
             else if(arr[mid]<target){
                 s=mid+1;
@@ -19,11 +18,6 @@ public:
                 e=mid-1;
             }
         }
-        if(found){
-            return mid;
-        }
-        else{
-            return -1;
-        }
+       return -1;
     }
 };
