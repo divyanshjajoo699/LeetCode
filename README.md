@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/divyanshjajoo699/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0075-sort-colors](https://github.com/divyanshjajoo699/LeetCode/tree/master/0075-sort-colors) |
 | [0485-max-consecutive-ones](https://github.com/divyanshjajoo699/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0704-binary-search](https://github.com/divyanshjajoo699/LeetCode/tree/master/0704-binary-search) |
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/divyanshjajoo699/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0075-sort-colors](https://github.com/divyanshjajoo699/LeetCode/tree/master/0075-sort-colors) |
 ## Sorting
 |  |
