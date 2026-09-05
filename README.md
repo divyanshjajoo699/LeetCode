@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/divyanshjajoo699/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0075-sort-colors](https://github.com/divyanshjajoo699/LeetCode/tree/master/0075-sort-colors) |
+| [0283-move-zeroes](https://github.com/divyanshjajoo699/LeetCode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/divyanshjajoo699/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0704-binary-search](https://github.com/divyanshjajoo699/LeetCode/tree/master/0704-binary-search) |
 | [1480-running-sum-of-1d-array](https://github.com/divyanshjajoo699/LeetCode/tree/master/1480-running-sum-of-1d-array) |
@@ -22,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/divyanshjajoo699/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0075-sort-colors](https://github.com/divyanshjajoo699/LeetCode/tree/master/0075-sort-colors) |
+| [0283-move-zeroes](https://github.com/divyanshjajoo699/LeetCode/tree/master/0283-move-zeroes) |
 ## Sorting
 |  |
 | ------- |
