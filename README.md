@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/divyanshjajoo699/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0075-sort-colors](https://github.com/divyanshjajoo699/LeetCode/tree/master/0075-sort-colors) |
+| [0268-missing-number](https://github.com/divyanshjajoo699/LeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/divyanshjajoo699/LeetCode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/divyanshjajoo699/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0704-binary-search](https://github.com/divyanshjajoo699/LeetCode/tree/master/0704-binary-search) |
@@ -17,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/divyanshjajoo699/LeetCode/tree/master/0268-missing-number) |
 | [0704-binary-search](https://github.com/divyanshjajoo699/LeetCode/tree/master/0704-binary-search) |
 ## Two Pointers
 |  |
@@ -28,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/divyanshjajoo699/LeetCode/tree/master/0075-sort-colors) |
+| [0268-missing-number](https://github.com/divyanshjajoo699/LeetCode/tree/master/0268-missing-number) |
 ## Quicksort
 |  |
 | ------- |
@@ -36,4 +39,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/divyanshjajoo699/LeetCode/tree/master/0075-sort-colors) |
+## Hash Table
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/divyanshjajoo699/LeetCode/tree/master/0268-missing-number) |
+## Math
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/divyanshjajoo699/LeetCode/tree/master/0268-missing-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/divyanshjajoo699/LeetCode/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
