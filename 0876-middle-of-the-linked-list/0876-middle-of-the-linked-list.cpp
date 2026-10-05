@@ -20,12 +20,10 @@ public:
 
        int  midnode=(cnt/2)+1;
         temp=head;
-        while(temp!=NULL){
-             midnode--;
-            if(midnode==0){
-                break;
-            }
+        int i=1;
+        while(i<(midnode)){
             temp=temp->next;
+            i++;
         }
         return temp;
     }
