@@ -10,41 +10,29 @@
  */
 class Solution {
 public:
-
-    ListNode* addll(ListNode*& head,ListNode*&temp,int x){
-        ListNode*newnode=new ListNode(x);
-        if(head==NULL){
-            head=newnode;
-            temp=newnode;
-        }
-        else{
-        temp->next=newnode;
-        temp=newnode;
-        
-        }
-        return head;
-     }
     ListNode* oddEvenList(ListNode* head) {
-        
-        ListNode* temp=head;int count=1;int ele;ListNode*oddhead=NULL;ListNode*oddtemp=NULL;
-            while(temp!=NULL){
-                if(count%2!=0){
-                    ele=temp->val;
-                    oddhead=addll(oddhead,oddtemp,ele);
-                }
-                temp=temp->next;
-                 count++;
-            }
-            temp=head;count=1;
-            while(temp!=NULL){
-                if(count%2==0){
-                    ele=temp->val;
-                    oddhead=addll(oddhead,oddtemp,ele);
-                }
-                temp=temp->next;
-                count++;
-            }
-            return oddhead;
+      ListNode*temp=head;vector<int>arr;
 
+      if(head==NULL||head->next==NULL)return head;
+        while(temp!=NULL && temp->next!=NULL){
+            arr.push_back(temp->val);
+            temp=temp->next->next;
+        }
+        if(temp) arr.push_back(temp->val);
+
+        temp=head->next;
+        while(temp!=NULL&&temp->next!=NULL){
+            arr.push_back(temp->val);
+            temp=temp->next->next;
+        }
+        if(temp) arr.push_back(temp->val);
+
+        int i=0;temp=head;
+        while(temp!=NULL){
+            temp->val=arr[i];
+            i++;temp=temp->next;
+        }
+
+        return head;
     }
 };
