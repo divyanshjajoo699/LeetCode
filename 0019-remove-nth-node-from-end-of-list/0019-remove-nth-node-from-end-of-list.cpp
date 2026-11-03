@@ -58,32 +58,53 @@ public:
 //         return head;
 //     }
 
-        ListNode* removeNthFromEnd(ListNode* head, int n) {
-            ListNode*temp=head;
-            int count=0;
-            if(head==NULL) return head;
+        // ListNode* removeNthFromEnd(ListNode* head, int n) {
+        //     ListNode*temp=head;
+        //     int count=0;
+        //     if(head==NULL) return head;
+        //     if(head->next==NULL&&n==1) return NULL;
+        //     while(temp!=NULL){
+        //         count++;
+        //         temp=temp->next;
+        //     }
+        //     if(n==count){
+        //         ListNode*delnode=head;
+        //         head=head->next;
+        //         delete delnode;
+        //         return head;
+        //     }
+        //     int result=count-n;
+        //     temp=head;
+        //     while(temp!=NULL||temp->next!=NULL){
+        //         result--;
+        //         if(result==0) break;
+        //         temp=temp->next;
+        //     }
+        //     ListNode*delnode=temp->next;
+        //     temp->next=temp->next->next;
+        //     delete delnode;
+
+        //     return head;
+        // }
+
+         ListNode* removeNthFromEnd(ListNode* head, int n){
+            ListNode*fast=head;
+            if(head==NULL) return NULL;
             if(head->next==NULL&&n==1) return NULL;
-            while(temp!=NULL){
-                count++;
-                temp=temp->next;
-            }
-            if(n==count){
+            for(int i=0;i<n;i++) fast=fast->next;
+            if(fast==NULL){
                 ListNode*delnode=head;
                 head=head->next;
                 delete delnode;
                 return head;
             }
-            int result=count-n;
-            temp=head;
-            while(temp!=NULL||temp->next!=NULL){
-                result--;
-                if(result==0) break;
-                temp=temp->next;
+            ListNode*slow=head;
+            while(fast->next!=NULL){
+                slow=slow->next;fast=fast->next;
             }
-            ListNode*delnode=temp->next;
-            temp->next=temp->next->next;
+            ListNode*delnode=slow->next;
+            slow->next=slow->next->next;
             delete delnode;
-
             return head;
-        }
+         }
 };
