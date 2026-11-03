@@ -89,8 +89,8 @@ public:
 
          ListNode* removeNthFromEnd(ListNode* head, int n){
             ListNode*fast=head;
-            if(head==NULL) return NULL;
-            if(head->next==NULL&&n==1) return NULL;
+            // if(head==NULL) return NULL;
+            // if(head->next==NULL&&n==1) return NULL;
             for(int i=0;i<n;i++) fast=fast->next;
             if(fast==NULL){
                 ListNode*delnode=head;
