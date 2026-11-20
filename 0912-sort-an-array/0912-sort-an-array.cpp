@@ -1,5 +1,13 @@
 class Solution {
 public:
+
+    void mergeHelper(vector<int>&arr,int s,int e){
+        if(s>=e) return ;
+        int mid=(s+e)/2;
+        mergeHelper(arr,s,mid);
+        mergeHelper(arr,mid+1,e);
+        merge(arr,s,mid,e);
+    }
     void merge(vector<int>&arr,int s,int mid,int e){
         vector<int> result;
         int i=s;
@@ -22,18 +30,13 @@ public:
             result.push_back(arr[j]);
             j++;
         }
-
+        j=0;
         for(int i=s;i<=e;i++){
-            arr[i]=result[i-s];
+            arr[i]=result[j];
+            j++;
         }
     }
-    void mergeHelper(vector<int>&arr,int s,int e){
-        if(s>=e) return ;
-        int mid=(s+e)/2;
-        mergeHelper(arr,s,mid);
-        mergeHelper(arr,mid+1,e);
-        merge(arr,s,mid,e);
-    }
+    
     vector<int> sortArray(vector<int>& arr) {
       int s=0;
       int e=arr.size()-1;
