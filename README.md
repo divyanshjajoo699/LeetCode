@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/divyanshjajoo699/LeetCode/tree/master/0020-valid-parentheses) |
+| [0225-implement-stack-using-queues](https://github.com/divyanshjajoo699/LeetCode/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/divyanshjajoo699/LeetCode/tree/master/0234-palindrome-linked-list) |
 ## Bracket Sequences
 |  |
@@ -208,4 +209,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0700-search-in-a-binary-search-tree](https://github.com/divyanshjajoo699/LeetCode/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/divyanshjajoo699/LeetCode/tree/master/0701-insert-into-a-binary-search-tree) |
+## Design
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/divyanshjajoo699/LeetCode/tree/master/0225-implement-stack-using-queues) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/divyanshjajoo699/LeetCode/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
